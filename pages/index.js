@@ -43,7 +43,8 @@ export default function Index() {
   };
 
   return (
-      <div className="bg-[url('public/bg.png')]">
+      <div className="">
+      <img className="object-scale-down" src="bg.png" alt="bg"/>
       </div>                      
   );
 }
