@@ -2,7 +2,7 @@ import Footer from "./Footer";
 
 const Layout = ({ children }) => (
   <>
-    <div className="">{children}</div>
+    <div className="min-h-screen">{children}</div>
     
   </>
 );

@@ -43,8 +43,8 @@ export default function Index() {
   };
 
   return (
-      <div className="">
-      <img className="object-scale-down" src="bg.png" alt="bg"/>
+      <div className="flex">
+      <img className=" object-contain bg-center" src="bg.png" alt="bg"/>
       </div>                      
   );
 }
