@@ -43,10 +43,7 @@ export default function Index() {
   };
 
   return (
-    <div className="flex h-screen w-full" >
-      <div className="flex-1 bg-center">
-      <img className="" src="bg.png" alt="bg"/>
-      </div>    
-    </div>
+      <div className="bg-[url('public/bg.png')]">
+      </div>                      
   );
 }
