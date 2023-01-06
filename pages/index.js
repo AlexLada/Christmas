@@ -10,7 +10,6 @@ import Star6 from "../components/star6";
 import Countdown from "react-countdown";
 import React from "react";
 
-
 export default function Index() {
   const renderer = ({ days, hours, minutes, seconds, completed }) => {
     if (completed) {
@@ -18,7 +17,9 @@ export default function Index() {
     } else {
       return (
         <div className=" place-self-center pt-2 w-full">
-          <h2 className="xl:text-sm text-xs text-center ">До рождества осталось:</h2>
+          <h2 className="xl:text-sm text-xs text-center ">
+            До рождества осталось:
+          </h2>
           <span className=" flex justify-center gap-1 font-bold text-xs flex-row">
             <div className="flex-col  p-2 bg-[#222327] rounded-2xl">
               <div>{days}</div>
@@ -43,8 +44,10 @@ export default function Index() {
   };
 
   return (
-      <div className="flex">
-      <img className=" object-contain bg-center" src="bg.png" alt="bg"/>
-      </div>                      
+    <div className="bg-gradient-to-b from-[#2F7336] to-[#AA3A38]">
+      <div className="container xl:w-full flex mx-auto">
+        <img className=" object-contain bg-center" src="bg.png" alt="bg" />
+      </div>
+    </div>
   );
 }
