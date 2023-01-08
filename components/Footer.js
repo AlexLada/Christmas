@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="container grid grid-cols-5 mt-0 px-5 py-8 mx-auto items-center object-cover text-gray-600 body-font">
+    <footer className="container grid grid-cols-5 mt-0 xl:ml-80 ml-8 px-5 py-8 mx-auto items-center object-cover text-gray-600 body-font fixed bottom-0">
       <div className="sm:flex-row flex-col">
         <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"></a>
         <article className="col-start-2 xl:pl-32 lg:pl-20 md:pl-8 sm:pl-2 border-r-2 ">
@@ -22,7 +22,7 @@ export default function Footer() {
       </p>
 
       <svg
-        className="grid col-start-3 col-span-1 place-self-end my-auto"
+        className="grid col-start-4 col-span-1 place-self-end my-auto"
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
         y="0px"
@@ -64,7 +64,7 @@ export default function Footer() {
         ></path>
       </svg>
       <svg
-        className="grid col-start-4"
+        className="grid col-start-5"
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
         y="0px"

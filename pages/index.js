@@ -44,9 +44,33 @@ export default function Index() {
   };
 
   return (
-    <div className="bg-gradient-to-b from-[#2F7336] to-[#AA3A38]">
-      <div className="container xl:w-full flex mx-auto">
-        <img className=" object-contain bg-center" src="bg.png" alt="bg" />
+    <div className="">
+      <div className="">
+        <img
+          className="w-full h-full object-cover absolute mix-blend-overlay"
+          src="bg.png"
+          alt="bg"
+        />
+      </div>
+      <div className="inline-flex static h-44 w-7/12 mt-48 xl:ml-96 lg:ml-56 md:ml-40  ml-28 bg-amber-400/75 shadow-xl shadow-[#9370DB] border-double border-8 border-[#483D8B] rounded-3xl hover:scale-110 xl:hover:scale-110 lg:hover:scale-110 md:hover:scale-110 transition-all transform duration-500 ">
+        <div className="container h-36 w-11/12 mx-auto my-auto bg-transparent rounded-3xl">
+          <div className="container h-36 w-11/12 mx-auto my-auto bg-gradient-to-tr from-[#DEB887] via-[#DEB887] to-[#FF0000]  rounded-3xl shadow-lg shadow-[#FF0000] hover:scale-110 xl:hover:scale-110 lg:hover:scale-110 md:hover:scale-110 transition-all transform duration-500">
+            <h1 className="text-xl flex justify-center text-center pt-9">
+            <font size="" color="#FFFFFF" face="Playball">
+              С прошедшим рождеством и наступающим счастьем! 
+            </font>  
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div className="inline-flex static h-96 w-7/12 mt-1 xl:ml-96 lg:ml-56 md:ml-40  ml-28 bg-amber-400/75 shadow-2xl shadow-[#9370DB] border-double border-8 border-[#483D8B] rounded-3xl hover:scale-110 xl:hover:scale-110 lg:hover:scale-110 md:hover:scale-110 transition-all transform duration-500">
+        <div className="container h-80 w-10/12 mx-auto my-auto bg-gradient-to-tr from-[#DEB887] via-[#DEB887] to-[#FF0000] rounded-3xl shadow-lg shadow-[#FF0000] hover:scale-110 xl:hover:scale-110 lg:hover:scale-110 md:hover:scale-110 transition-all transform duration-500">
+        <h1 className="text-xl flex justify-center text-center pt-12">
+            <font size="" color="#FFFFFF" face="Playball">
+              В этом году сбудутся все мечты, молодые пары влюблённых станут ближе (мы с Жанночкой😏), каждый добьётся своих и общих целей. . . . . . . . Всем счастья, успехов и любви!
+            </font>  
+            </h1>
+        </div>
       </div>
     </div>
   );
